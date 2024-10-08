@@ -42,7 +42,7 @@ body {
 
 h1.donotitle {
     font-size: 42px;
-    animation: fadeIn 0.7s 0s cubic-bezier(0.02, 0.01, 0.21, 1) forwards;
+    animation: fadeIn 0.7s 0.1s cubic-bezier(0.02, 0.01, 0.21, 1) forwards;
 }
 
 p.donosubtitle {
@@ -51,7 +51,7 @@ p.donosubtitle {
     width: 480px;
     text-align: center;
     color: #ffffff91;
-    animation: fadeIn 0.7s 0s cubic-bezier(0.02, 0.01, 0.21, 1) forwards;
+    animation: fadeIn 0.7s 0.1s cubic-bezier(0.02, 0.01, 0.21, 1) forwards;
 }
 
 .button {
@@ -89,9 +89,10 @@ p.donosubtitle {
     padding: 20px 0;
     display: flex;
     gap: 1px;
-    animation: fadeIn 0.7s 0.25s cubic-bezier(0.02, 0.01, 0.21, 1) forwards;
+    animation: fadeIn 0.7s 0.35s cubic-bezier(0.02, 0.01, 0.21, 1) forwards;
     opacity: 0;
     filter: blur(24px);
+    align-items: center;
 }
 
 .btnavatar {
@@ -113,3 +114,6 @@ p.donosubtitle {
     }
 }
 
+a {
+    text-decoration: none;
+}
