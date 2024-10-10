@@ -128,3 +128,35 @@ a {
     animation: fadeIn 0.7s 0s cubic-bezier(0.02, 0.01, 0.21, 1) forwards;
     opacity: 0;
 }
+
+.links-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.links {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    animation: fadeIn 0.3s 0.9s cubic-bezier(0.02, 0.01, 0.21, 1) forwards;
+    gap: 8px;
+    position: fixed;
+}
+
+.linklabel {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 462px) {
+    .linklabel {
+        display: none;
+    }
+}
+
+span.mdicon-button, .fa-brand {
+    font-size: 20px;
+}
